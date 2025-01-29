@@ -1,0 +1,72 @@
+/* src/components/CheckoutPage.css */
+.checkout-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .checkout-page h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .checkout-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-section {
+    margin-bottom: 20px;
+  }
+  
+  .form-section h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  
+  label input,
+  label textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    resize: none;
+    height: 80px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  .confirm-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .confirm-button:hover {
+    background-color: #219653;
+  }
+  
