@@ -2,8 +2,6 @@ import useScrollToTop from "../../hooks/ScrollToTop";
 import Banner from "./Banner";
 import Category from "./CategoryGrid";
 import FeaturedProducts from "./FeaturedProducts";
-import Footer from "./Footer";
-import Header from "./Header";
 
 export const HomePage : React.FC = () => {
     useScrollToTop();

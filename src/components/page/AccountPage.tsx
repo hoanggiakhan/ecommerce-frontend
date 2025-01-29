@@ -19,7 +19,7 @@ interface Address {
 const AccountPage: React.FC = () => {
   useScrollToTop();
   // Thông tin cá nhân mẫu
-  const [userInfo, setUserInfo] = useState({
+  const [userInfo] = useState({
     name: 'Nguyễn Văn A',
     email: 'nguyenvana@example.com',
     phone: '0123456789',
