@@ -21,7 +21,7 @@ const ProductDetailPage: React.FC = () => {
     id: 1,
     name: 'Snack Khoai Tây Lay\'s',
     images: [
-      './../../../public/snack.jpg',
+      'https://res.cloudinary.com/djf3au8db/image/upload/v1738117904/snack_t0eqha.jpg',
     ],
     price: 15000,
     discount: 10,
@@ -31,7 +31,7 @@ const ProductDetailPage: React.FC = () => {
       {
         id: 2,
         name: 'Trà Sữa Đóng Chai',
-        images: ['./../../../public/trasua.jpg'],
+        images: ['https://res.cloudinary.com/djf3au8db/image/upload/v1738117904/trasua_oswygo.jpg'],
         price: 25000,
         description: 'Trà sữa hương vị truyền thống, đóng chai tiện lợi.',
         rating: 4.8,
@@ -40,7 +40,7 @@ const ProductDetailPage: React.FC = () => {
       {
         id: 3,
         name: 'Nước Ngọt Có Ga',
-        images: ['./../../../public/nuoc.jpg'],
+        images: ['https://res.cloudinary.com/djf3au8db/image/upload/v1738117904/nuoc_ilvnsd.jpg'],
         price: 12000,
         description: 'Nước ngọt có ga giải khát, hương vị đậm đà.',
         rating: 4.3,
@@ -49,7 +49,7 @@ const ProductDetailPage: React.FC = () => {
       {
         id: 3,
         name: 'Nước Ngọt Có Ga',
-        images: ['./../../../public/nuoc.jpg'],
+        images: ['https://res.cloudinary.com/djf3au8db/image/upload/v1738117904/nuoc_ilvnsd.jpg'],
         price: 12000,
         description: 'Nước ngọt có ga giải khát, hương vị đậm đà.',
         rating: 4.3,
